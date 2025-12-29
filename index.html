@@ -102,9 +102,13 @@ Praveen Haran - Fabric Data Engineer
                      <div class="w3-light-grey w3-round-xlarge w3-small">
                         <div class="w3-container w3-center w3-round-xlarge" style="width:70%; background-color:#DC5B57">70%</div>
                      </div>
-                     <p>ADLS</p>
+                     <p>EventStream</p>
                      <div class="w3-light-grey w3-round-xlarge w3-small">
                         <div class="w3-container w3-center w3-round-xlarge" style="width:90%; background-color:#33AE81">90%</div>
+                     </div>
+                     <p>EventHouse</p>
+                     <div class="w3-light-grey w3-round-xlarge w3-small">
+                        <div class="w3-container w3-center w3-round-xlarge" style="width:90%; background-color:#F3C911">80%</div>
                      </div>
                      <p>Azure Key Vault</p>
                      <div class="w3-light-grey w3-round-xlarge w3-small">
@@ -151,12 +155,13 @@ Praveen Haran - Fabric Data Engineer
                      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Feb 2023 - Jan 2025</h6>
                      <ul>
                         <li> Modernized data infrastructure via <b>Microsoft Fabric and Medallion Architecture</b>, centralizing data to boost <b>17M+</b> customer accessibility.</li>
+                        <li> Built Real-Time Intelligence pipeline in Fabric to monitor 17M loyalty members, utilizing Eventstream for ingestion and KQL for sub-second fraud detection.</li>
                         <li> Ingested raw source data into the Bronze layer via Azure Data Factory, storing it in Delta Lake for full traceability and auditability.</li>
                         <li> Built and managed high-volume event-driven architectures using <b>Azure Event Hubs for real-time data</b> processing.</li>
                         <li> Cleaned, deduplicated, and joined data in the Silver layer using <b>PySpark </b>in Databricks, transforming it into a structured, consistent format.</li>
                         <li> Aggregated and enriched data in the Gold layer to support <b> Power BI (DAX) </b>dashboards, enabling customer segmentation and sales performance analytics.</li>
                         <li> Connected Power BI to the Gold layer, validated data accuracy via <b>SQL/PySpark </b>in Databricks, and refined models for optimal performance.</li>
-                        <li> Identified key purchasing and product trends by analyzing <b>1 billion customer transactions</b> (from 17 million customers) using Python/SQL within a Databricks environment.</li>
+                        <li> Analyzed 17 million customer records using Python/SQL in Databricks to identify purchasing and product trends.</li>
                         <li> Optimized multi-terabyte Lakehouse storage using Z-ordering and partitioning to significantly enhance analytical query speeds.</li>
                         <li> Provided real-time strategic insights through efficient data processing in Python and Databricks, enabling self-service BI and stakeholder decision-making.</li>
                         <li> Collaborated with business analysts to translate requirements into impactful Power BI reports.</li>
@@ -168,6 +173,9 @@ Praveen Haran - Fabric Data Engineer
                      <h5 class="w3-opacity"><b>Azure Data Engineer / SCENE+(Scotia Bank)</b></h5>
                      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Oct 2020 - Jan 2023</h6>
                      <ul>
+                        <li> Real-Time Intelligence Pipeline: Engineered an end-to-end Real-Time Intelligence pipeline in Microsoft Fabric to monitor 14 million loyalty member transactions.</li>
+                        <li> Fraud & Anomaly Detection: Utilized Eventstream to ingest live transaction data and Eventhouse (KQL) to write complex queries detecting point-redemption anomalies and fraudulent account behavior in sub-seconds.</li>
+                        <li> Stream Processing: Configured Eventstream ManageFields and transformation operators to normalize incoming telemetry before ingestion into KQL databases.</li> 
                         <li> Automated ETL workflows in Azure Data Factory (ADF) using SQL and Python, enabling real-time Power BI dashboards for monitoring sales and customer feedback.</li>
                         <li> Enhanced data quality in Azure through rigorous data cleaning, validation, and optimization processes using SQL and Python.</li>
                         <li> Designed interactive Power BI dashboards using DAX for <b>14 million</b> loyalty member records, enabling data-driven decision-making.</li>
